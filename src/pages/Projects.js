@@ -1,6 +1,7 @@
 import React from 'react'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
-
+import proj1 from "../assets/project-1.png";
+import proj2 from "../assets/project-2.png";
 
 const Projects = () => {
   return (
@@ -12,7 +13,7 @@ const Projects = () => {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="./assets/project-1.png"
+                  src={proj1}
                   alt="Project 1"
                   className="project-img"
                 />
@@ -30,7 +31,7 @@ const Projects = () => {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="./assets/project-2.png"
+                  src={proj2}
                   alt="Project 2"
                   className="project-img"
                 />

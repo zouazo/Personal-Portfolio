@@ -2,13 +2,14 @@ import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
-
+import pic1 from "../assets/profile-pic.png";
 
 const Profile = () => {
   return (
       <section id="profile">
         <div className="section__pic-container">
-          <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+          <img src={pic1} alt="Abdennour ZOUAZOU's profile picture" 
+          />
         </div>
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>

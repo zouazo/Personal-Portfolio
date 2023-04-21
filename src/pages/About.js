@@ -1,5 +1,6 @@
 import React from 'react'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import pic2 from "../assets/about-pic.png";
 
 
 import { makeStyles } from '@mui/styles';
@@ -26,8 +27,8 @@ const About = () => {
         <div className="section-container">
           <div className="section__pic-container">
             <img
-              src="./assets/about-pic.png"
-              alt="Profile picture"
+              src={pic2}
+              alt="Abdennour ZOUAZOU's profile picture"
               className="about-pic"
             />
           </div>

@@ -3,6 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import pic1 from "../assets/profile-pic.png";
+import pdf1 from "../assets/resume-example.pdf";
 
 const Profile = () => {
   return (
@@ -18,7 +19,7 @@ const Profile = () => {
           <div className="btn-container">
             <button
               className="btn btn-color-2"
-              onClick={() => window.open('./assets/resume-example.pdf')}
+              onClick={() => window.open(pdf1)}
             >
               Download CV
             </button>

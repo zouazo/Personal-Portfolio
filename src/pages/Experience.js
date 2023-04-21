@@ -8,8 +8,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
-
-function Experience() {
+const Experience = () => {
   return (
         <section id="experience">
           <p className="section__text__p1">Delve into my</p>
@@ -63,9 +62,6 @@ function Experience() {
           </div>
 
           </div>
-
-
-
         </section>
   );
 }

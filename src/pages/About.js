@@ -12,6 +12,16 @@ const useStyles = makeStyles({
     alignItems: 'center',
     gap: 10,
   },
+  '@media screen and (max-width: 800px)': {
+    root: {
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: 3,
+      '& svg': {
+        marginBottom: 3,
+      },
+    },
+  },
 });
 
 

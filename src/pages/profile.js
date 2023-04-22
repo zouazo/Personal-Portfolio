@@ -14,7 +14,7 @@ const Profile = () => {
         </div>
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>
-          <h1 className="title">4Abdennour ZOUAZOU</h1>
+          <h1 className="title">Abdennour ZOUAZOU</h1>
           <p className="section__text__p2">Full Stack Developer</p>
           <div className="btn-container">
             <button

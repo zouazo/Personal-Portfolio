@@ -459,6 +459,11 @@ article div {
       height: fit-content;
       margin-bottom: 2rem;
     }
+
+    .experience-details-container {
+      margin-inline: 2rem;
+    }
+
     .about-containers,
     .contact-info-upper-container,
     .btn-container {

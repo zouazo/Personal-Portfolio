@@ -1,3 +1,4 @@
+import "./App.css";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";

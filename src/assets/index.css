@@ -321,6 +321,28 @@ article div {
   flex-grow: 1;
 }
 
+.small-timeline-element {
+  padding: 0px;
+  font-size: 12px;
+}
+
+.small-timeline-element .vertical-timeline-element-title {
+  font-size: 18px;
+}
+
+.small-timeline-element .vertical-timeline-element-subtitle {
+  font-size: 12px;
+}
+
+.small-timeline-element .vertical-timeline-element-p {
+  font-size: 12px ;
+}
+
+.small-timeline-element .vertical-timeline-element-date {
+  font-size: 14px !important;
+}
+
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -515,30 +537,7 @@ article div {
 
 
 
-    /* Experience Style*/
-
-
-    .small-timeline-element {
-      padding: 0px;
-      font-size: 12px;
-    }
-    
-    .small-timeline-element .vertical-timeline-element-title {
-      font-size: 18px;
-    }
-    
-    .small-timeline-element .vertical-timeline-element-subtitle {
-      font-size: 12px;
-    }
-    
-    .small-timeline-element .vertical-timeline-element-p {
-      font-size: 12px ;
-    }
-
-    .small-timeline-element .vertical-timeline-element-date {
-      font-size: 14px !important;
-    }
-    
+  
 
      
     

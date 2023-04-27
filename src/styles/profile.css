@@ -1,0 +1,159 @@
+
+/* PROFILE SECTION */
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+#profile .section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+#profile .section__text {
+  align-self: center;
+  text-align: center;
+}
+
+#profile .section__text__p1 {
+  text-align: center;
+}
+
+#profile .title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+#profile .section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+
+/* BUTTONS */
+
+#profile .btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#profile .btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+#profile .btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+#profile .btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+#profile .btn-color-1,
+.btn-color-2 {
+  /* background: rgb(53, 53, 53); */
+  color: rgb(0, 0, 0);
+}
+
+#profile .btn-color-1:hover {
+  /* background: rgb(0, 0, 0); */
+  border: rgb(255, 255, 255) 0.1rem solid;
+  background: rgb(53, 53, 53);
+  color: rgb(255, 255, 255);
+}
+
+#profile .btn-color-2 {
+  background: none;
+}
+
+#profile .btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+  background: rgb(53, 53, 53);
+  color: rgb(255, 255, 255);
+}
+
+#profile .btn-container {
+  gap: 1rem;
+}
+
+#profile #socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* ICONS */
+
+#profile .icon {
+  cursor: pointer;
+  /* height: 2rem; */
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  #profile {
+    display: block;
+  }
+
+  #profile .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  #profile {
+    height: 83vh;
+    margin-bottom: 1;
+  }
+
+
+  #profile .btn-container {
+    flex-wrap: wrap;
+  }
+
+
+  #profile .section__pic-container {
+    width: auto;
+    height: 43vw;
+    justify-content: center;
+  }
+  #profile .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  #profile.title {
+    font-size: 2rem;
+  }
+
+}

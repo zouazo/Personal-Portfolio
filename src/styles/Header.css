@@ -1,0 +1,57 @@
+/* HEADER  */
+
+header,
+.nav-links {
+  display: flex;
+}
+
+header {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+header .nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+header a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+header .logo {
+  font-size: 2rem;
+}
+
+header .logo:hover {
+  cursor: default;
+}
+
+
+
+
+
+/* media screen */
+
+@media screen and (max-width: 1200px) {
+  header .logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    display: none;
+  }
+}

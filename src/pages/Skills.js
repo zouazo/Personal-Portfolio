@@ -2,6 +2,8 @@ import React from 'react'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import { SkillList } from "../helpers/SkillList";
 import SkillItem from "../components/SkillItem";
+import "../styles/Skills.css";
+
 
 
 

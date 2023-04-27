@@ -1,6 +1,8 @@
 import React from 'react'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import pic2 from "../assets/about-pic.png";
+import "../styles/About.css";
+
 
 
 import { makeStyles } from '@mui/styles';
@@ -10,7 +12,7 @@ const useStyles = makeStyles({
   root: {
     display: 'flex',
     alignItems: 'center',
-    gap: 10,
+    gap: 6,
   },
   '@media screen and (max-width: 800px)': {
     root: {
@@ -47,9 +49,9 @@ const About = () => {
               <div className="details-container">
 
                 <div className={classes.root}>
-                  <Star />
-                  <Code /> 
-                  <People />
+                    <Star />
+                    <Code /> 
+                    <People />
                     <span>
                     I am an extremely motivated software developer with a passion for learning and creating. 
                     I am always looking for new opportunities to develop my skills and evolve professionally. 

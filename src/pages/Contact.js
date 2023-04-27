@@ -1,6 +1,8 @@
 import React from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import "../styles/Contact.css";
+
 
 const Contact = () => {
   return (

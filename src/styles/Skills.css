@@ -1,0 +1,150 @@
+
+/* Skills SECTION */
+
+#skills {
+  position: relative;
+}
+
+#skills .section__text__p1 {
+    text-align: center;
+  }
+
+  #skills .title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.3rem;
+  }
+
+  #skills .section--container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #skills .icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+  
+  #skills .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+
+  #skills .about-containers {
+    display: flex;
+  }
+
+
+  #skills .about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  #skills .details-container {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    flex: 1;
+    background: #f8f8f8;
+    border-radius: 0.5rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: justify;
+  
+  }
+  
+
+  #skills .skills-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+
+#skills .article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills .article-container article {
+  flex-basis: 100%;
+  max-width: 120px;
+  margin: 10px;
+}
+
+
+#skills article {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#skills article .icon {
+  cursor: default;
+}
+
+#skills article div {
+  flex-grow: 1;
+}
+
+
+
+
+
+/* media screen */
+
+
+@media screen and (max-width: 1400px) {
+  #skills .about-containers {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1300px) {
+  section {
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #skills .arrow {
+    display: none;
+  }
+  #skills .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #skills article {
+    font-size: 1rem;
+  }
+  #skills .about-containers {
+    flex-wrap: wrap;
+  }
+  #skills .skills-sub-title {
+    font-size: 1.5rem;
+  }
+  #skills .title {
+    font-size: 2rem;
+  }
+  #skills .article-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #skills article {
+    width: 100%;
+  }
+
+  #skills .article-container article {
+    margin: 4px;
+  }
+
+}
+

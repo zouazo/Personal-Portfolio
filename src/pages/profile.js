@@ -4,6 +4,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import pic1 from "../assets/profile-pic.png";
 import pdf1 from "../assets/resume-example.pdf";
+import "../styles/profile.css";
+
 
 const Profile = () => {
   return (

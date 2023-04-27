@@ -1,0 +1,156 @@
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+#projects .section__text__p1 {
+    text-align: center;
+  }
+
+  #projects .title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.3rem;
+  }
+
+  #projects .experience-details-container {
+  margin-inline: 6rem;
+}
+
+#projects .about-containers {
+    display: flex;
+  }
+
+  #projects .icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+  
+  #projects .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+
+
+/* ProjectItem */
+
+#projects .details-container {
+  padding: 1.5rem;
+  margin: 1.5rem;
+  flex: 1;
+  background: #f8f8f8;
+  border-radius: 0.5rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: justify;
+}
+
+#projects .color-container {
+  border-color: rgb(163, 163, 163);
+  background: #f8f8f8;
+}
+
+#projects .article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+#projects .project-img {
+  border-radius: 0.5rem;
+  width: 90%;
+  height: 90%;
+}
+
+#projects .skills-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#projects .project-title {
+  margin: 1rem;
+  color: black;
+}
+
+#projects .btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#projects .btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+#projects .btn-color-2 {
+  border: rgb(0, 0, 0) 0.1rem solid;
+}
+
+#projects .project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+#projects .btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+  background: rgb(53, 53, 53);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* media screen */
+
+@media screen and (max-width: 1400px) {
+
+  #projects .about-containers {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  #projects .experience-details-container {
+    margin-top: 2rem;
+  }
+  #projects .arrow {
+    display: none;
+  }
+  #projects .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  #projects .experience-details-container {
+    margin-inline: 2rem;
+  }
+
+  #projects .about-containers,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+
+  #projects .skills-sub-title {
+    font-size: 1.25rem;
+  }
+
+  #projects .title {
+    font-size: 2rem;
+  }
+}
+

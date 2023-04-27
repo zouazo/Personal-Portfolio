@@ -2,6 +2,8 @@ import React from 'react'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
+import "../styles/Projects.css";
+
 
 const Projects = () => {
   return (

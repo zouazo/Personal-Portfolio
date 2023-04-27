@@ -7,6 +7,8 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import "../styles/Experience.css";
+
 
 const Experience = () => {
   return (
@@ -68,8 +70,3 @@ const Experience = () => {
 
 export default Experience;
 
-
-
-// <h4 className="vertical-timeline-element-subtitle">
-// San 
-// </h4>

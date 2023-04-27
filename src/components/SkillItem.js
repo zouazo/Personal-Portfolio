@@ -1,5 +1,6 @@
 import React from 'react'
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import "../styles/Skills.css";
 
 
 const SkillItem = ({ name }) => {

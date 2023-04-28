@@ -5,11 +5,11 @@
   position: relative;
 }
 
-#experience .section__text__p1 {
+#experience p {
     text-align: center;
   }
 
-  #experience .title {
+  #experience h1 {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 1.3rem;
@@ -69,10 +69,8 @@
 
 @media screen and (max-width: 800px) {
 
-  #experience .title {
+  #experience h1 {
     font-size: 2rem;
   }
-
-
 }
 

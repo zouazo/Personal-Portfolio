@@ -20,17 +20,17 @@
   text-align: center;
 }
 
-#profile .section__text__p1 {
+#profile p {
   text-align: center;
 }
 
-#profile .title {
+#profile h1 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1.3rem;
 }
 
-#profile .section__text__p2 {
+#profile .p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -149,10 +149,10 @@
     height: 43vw;
     justify-content: center;
   }
-  #profile .section__text__p2 {
+  #profile .p2 {
     font-size: 1.25rem;
   }
-  #profile.title {
+  #profile h1 {
     font-size: 2rem;
   }
 

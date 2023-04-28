@@ -13,7 +13,7 @@ const ProjectItem = ({ image, name, url }) => {
       <div className="article-container">
         <img src={image} alt={name} className="project-img" />
       </div>
-      <h2 className="skills-sub-title project-title">{name}</h2>
+      <h2 className="project-sub-title project-title">{name}</h2>
       <div className="btn-container">
         <button className="btn btn-color-2 project-btn">Github</button>
       </div>

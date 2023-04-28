@@ -13,8 +13,8 @@ import "../styles/Experience.css";
 const Experience = () => {
   return (
         <section id="experience">
-          <p className="section__text__p1">Delve into my</p>
-          <h1 className="title">Experience</h1>
+          <p>Delve into my</p>
+          <h1>Experience</h1>
           <div className="section--container">
           <KeyboardDoubleArrowDownIcon
           className="icon arrow"

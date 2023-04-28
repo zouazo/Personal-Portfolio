@@ -11,8 +11,8 @@ const Skills = () => {
 
   return (
     <section id="skills">
-      <p className="section__text__p1">Explore My</p>
-      <h1 className="title">Skills</h1>
+      <p>Explore My</p>
+      <h1>Skills</h1>
       <div className="section--container">
         <KeyboardDoubleArrowDownIcon
           className="icon arrow"

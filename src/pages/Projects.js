@@ -8,9 +8,9 @@ import "../styles/Projects.css";
 const Projects = () => {
   return (
     <section id="projects">
-      <p className="section__text__p1">Browse My Recent</p>
-      <h1 className="title">Projects</h1>
-      <div className="experience-details-container">
+      <p>Browse My Recent</p>
+      <h1>Projects</h1>
+      <div className="project-details-container">
         <div className="about-containers">
           {ProjectList.map((project, idx) => (
             <ProjectItem key={idx} name={project.name} image={project.image} url={project.url} />

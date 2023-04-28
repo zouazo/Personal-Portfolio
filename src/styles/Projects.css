@@ -5,17 +5,17 @@
   position: relative;
 }
 
-#projects .section__text__p1 {
+#projects p {
     text-align: center;
   }
 
-  #projects .title {
+  #projects h1 {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 1.3rem;
   }
 
-  #projects .experience-details-container {
+  #projects .project-details-container {
   margin-inline: 6rem;
 }
 
@@ -66,7 +66,7 @@
   height: 90%;
 }
 
-#projects .skills-sub-title {
+#projects .project-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 1200px) {
 
-  #projects .experience-details-container {
+  #projects .project-details-container {
     margin-top: 2rem;
   }
   #projects .arrow {
@@ -136,7 +136,7 @@
 
 @media screen and (max-width: 800px) {
 
-  #projects .experience-details-container {
+  #projects .project-details-container {
     margin-inline: 2rem;
   }
 
@@ -145,11 +145,11 @@
     flex-wrap: wrap;
   }
 
-  #projects .skills-sub-title {
+  #projects .project-sub-title {
     font-size: 1.25rem;
   }
 
-  #projects .title {
+  #projects h1 {
     font-size: 2rem;
   }
 }

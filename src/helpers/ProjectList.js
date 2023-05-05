@@ -10,6 +10,6 @@ export const ProjectList = [
   {
     name: "Project Two",
     image: Proj2,
-    url: "https://github.com/zouazo/Django-React-NotesApp-With-User-Authentication",
+    url: "https://github.com/zouazo/Django-React-NotesApp-With-User-Registration-and-Login/",
   },
 ];

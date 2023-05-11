@@ -1,6 +1,6 @@
 # Personal-Portfolio
 
-Live Demo can be viewed at https://www.buildproshop.com/
+Live Demo can be viewed at https://zouazo.github.io/Personal-Portfolio/
 
 ## Download & Install react modules    
 
